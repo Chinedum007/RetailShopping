@@ -4,10 +4,11 @@
 
 <suite name="Regression Suite">
 
-  <test thread-count="5" name="ChromeTest">
+  <test thread-count="5" name="FirefoxTest">
+  	<parameter name="browserName" value="firefox"></parameter>
     <classes>
       <class name="com.eshopping.womenshopping.testscripts.TC001"/>
-      <class name="com.eshopping.womenshopping.testscripts.TC003"/>
+     <!--  <class name="com.eshopping.womenshopping.testscripts.TC003"/> -->
     </classes>
   </test> <!-- Test -->
 
